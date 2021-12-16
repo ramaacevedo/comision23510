@@ -15,7 +15,7 @@ body{
 /* COMIENZA MENU DE NAVEGACION */
 
 .menuNavegacion {
-    background-image: linear-gradient(#Ffe8cd, #ffe8cdab, #ffe8cd00);
+    background-image: linear-gradient(#Ffe8cd, #ffe8cdc2,#ffe8cd00);
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     align-items: center;
@@ -50,7 +50,8 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(66, 66, 66);
+    color: #4d4d4d;
+    /* background-color: rgba(189, 189, 189, 0.459); */
     display: block;
     padding: 19px;
     transition: all 0.5s;
