@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/fripi-icono.png">
+    <link rel="stylesheet" href="../CSS/style-contacto.css">
+    <link href="../fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+
+        <!-- COMIENZO MENÚ DE NAVEGACIÓN -->
+
+        <nav class="menuNavegacion">
+
+        <!-- COMIENZO LOGO -->
+
+        <img src="../img/fripi-transparente.png" alt="FRIPI Alimentos Congelados" id="logo-fripi">
+
+        <!-- FIN LOGO -->
+        
+    
+        <ul class="menuPrincipal">
+            <li><a href="../index.html" class="pagInicio">Inicio</a></li>
+            <li><a href="productos.html" class="pagProductos">Productos↷</a>
+                <ul class="submenu">
+                    <li><a href="#aceitunas">Aceitunas</a></li>
+                    <li><a href="#antipasto">Antipasto</a></li>
+                    <li><a href="#porotos">Porotos</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html" class="pagContacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+
+        <!-- FIN MENÚ DE NAVEGACIÓN -->
+
+
+        <!-- COMIENZO CUERPO DE LA PÁGINA -->
+    <section class="section">
+
+    <div class="container">
+
+        <div class="formulario">
+
+                <h1>Dejanos tu mensaje</h1>
+
+                <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" required>
+                </p>
+
+                <p>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" placeholder="Escribe tu apellido" id="apellido" required>
+                </p>
+
+                <p>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" name="telefono" placeholder="Escribe tu teléfono" id="telefono" required>
+                </p>
+
+                <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Escribe tu email" id="email" required>
+                </p>
+                
+                <p>
+                <label for="areadetexto">Mensaje:</label>
+                <textarea name="areadetexto" placeholder="Escribe tu mensaje" id="areadetexto" cols="30" rows="10" required></textarea>
+                </p>
+                
+                <p>
+                <input type="submit" value="Enviar" class="boton">
+                </form>
+                </p>
+
+        </div>
+        <div class="info-contacto">
+
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Hipolito Yrigoyen 1941, Funes - Santa Fe</li>
+                    <li><i class="fab fa-instagram"></i> /fripi.funes</li>
+                    <li><i class="fab fa-whatsapp"></i> (0341)  344-6215</li>
+                </ul>
+            </div>
+        </div>
+
+    <!-- FIN CUERPO DE LA PÁGINA -->
+
+    <!-- COMIENZO FOOTER -->
+
+</section>
+<footer>
+    <p>Seguinos en instagram:</p>
+    <a href="https://www.instagram.com/fripi.funes/" target="_blank" id="a-img"><img src="../img/instagram.png" alt="instagram" class="instagram-img"></a>
+<h5>© Todos los derechos reservados 2021</h5>
+</footer>
+
+    <!-- FIN FOOTER -->
+</body>
+</html>
